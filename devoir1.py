@@ -637,14 +637,27 @@ for article in articles:
 # Une phrase avec les 4 variables intégrées : 
 print("Dans", media," à la section",section," situé à la",page, ",ya un article de seulement",mots,"très intéressant!")
 
+# je n'ai pas réussi à compter le nombre d"articles par média :(
+#J'ai essayé avec la formule article.count("Le Devoir") mais ca ne fonctionne pas ?
 
+articles = str(articles)
 
+media1 =articles.count("La Presse+")
+print("Il y a",media1,"articles provenant de La Presse+")
 
+media2 =articles.count("Le Devoir")
+print("Il y a",media2,"articles provenant du journal le Devoir"
 
+media3=articles.count("Le Soleil")
+print("Il y a", media3,"articles provenant du journal Le Soleil")
 
+media4 =articles.count("La Tribune")
+print("Il y a", media4, "articles provenant de La Tribune")
 
+media5 =articles.count("La Voix de l'Est")
+print("Il y a", media5, "articles provenant de La Voix de l'ESt")
 
+media6 =articles.count("La Nouvelliste")
+print("Il y a",media6, "articles provenant de La Nouvelliste")
 
-
-	
 
