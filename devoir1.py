@@ -634,8 +634,7 @@ for article in articles:
 	page = (article[0:-1][-1]) # Je suis bloquée ici depuis plusieurs heures. Aucune idée de comment faire pour voir apparaitre le texte "p." après la troisière "," J'ai essayé de remplacer "p." par "" des fois que le problème soit le point "." mais sans succès... 
 	print(page)
 
-a= "Le Soleil"
-print(len("Le Soleil"))
+
 
 
 
